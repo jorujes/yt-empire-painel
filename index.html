@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>YT Empire Painel</title>
+<meta name="description" content="Private, read-only analytics panel used by the owner of a group of YouTube channels.">
+<!-- Google Search Console verification meta tag goes here, e.g. <meta name="google-site-verification" content="..."> -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<nav><a class="on" href="./">Home</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a></nav>
+<h1>YT Empire Painel</h1>
+<p class="lead">A private, read-only analytics panel used by the owner of a small group of YouTube channels to follow
+the performance of his own channels.</p>
+
+<h2>What it does</h2>
+<ul>
+  <li>Reads public and owner-authorized statistics of the owner's own YouTube channels (views, likes, comments,
+      subscribers, watch time, audience retention) through the YouTube Data API and the YouTube Analytics API.</li>
+  <li>Shows these numbers, day by day, in a panel that only the channel owner uses.</li>
+  <li>Uses read-only access. It never uploads, edits, deletes or comments on anything, and never posts on the
+      owner's behalf.</li>
+</ul>
+
+<h2>Who can use it</h2>
+<p>Only the owner of the channels. It is an internal tool, not a public service: there are no sign-ups and no
+other users.</p>
+
+<h2>Google sign-in</h2>
+<p>The owner signs in once with Google to authorize read-only access to his channels
+(<code>youtube.readonly</code>, <code>yt-analytics.readonly</code> and, optionally,
+<code>yt-analytics-monetary.readonly</code>). Access can be revoked at any time at
+<a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+
+<h2 id="pt">Em português</h2>
+<p>O YT Empire Painel é um painel interno, pessoal e somente leitura que o dono de um pequeno grupo de canais do
+YouTube usa para acompanhar os números dos próprios canais.</p>
+<ul>
+  <li>Lê, com autorização do dono, as estatísticas dos canais dele (views, likes, comentários, inscritos, tempo de
+      exibição, retenção) pela YouTube Data API e pela YouTube Analytics API.</li>
+  <li>Acesso só de leitura: nunca envia, edita, apaga ou comenta nada.</li>
+  <li>Só o dono dos canais usa. Não é um serviço público e não tem cadastro de usuários.</li>
+  <li>Revogar acesso: <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+</ul>
+
+<footer>Uses YouTube API Services: <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a> ·
+<a href="https://policies.google.com/privacy">Google Privacy Policy</a>.<br>Contact: <a href="https://github.com/jorujes/yt-empire-painel/issues">open an issue on GitHub</a>.
+See the <a href="privacy.html">Privacy Policy</a> and the <a href="terms.html">Terms of Service</a>.</footer>
+</main>
+</body>
+</html>
